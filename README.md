@@ -20,7 +20,7 @@ Then have your project's `.eslintrc` file extend the ruleset.
 
 ```json
 {
-    "extends": "devine"
+  "extends": "devine"
 }
 ```
 
@@ -28,7 +28,7 @@ If you're using React in your project:
 
 ```json
 {
-    "extends": "devine/react"
+  "extends": "devine/react"
 }
 ```
 
