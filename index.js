@@ -25,7 +25,7 @@ module.exports = {
     semi: [`error`, `always`],
     "prefer-const": `error`,
     "space-infix-ops": `error`,
-    "quote-props": [`as-needed`, `error`],
+    "quote-props": [`error`, `as-needed`],
     "no-console": `off`,
     "prefer-template": `error`,
     "no-array-constructor": `error`,
