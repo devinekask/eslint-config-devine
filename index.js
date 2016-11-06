@@ -35,6 +35,7 @@ module.exports = {
     "jsx-quotes": [`error`, `prefer-single`],
     camelcase: `error`,
     "keyword-spacing": [`error`, {before: true, after: true}],
+    "space-before-blocks": `error`,
     "arrow-spacing": `error`,
     "object-curly-spacing": [`off`, `never`],
     "arrow-parens": [`error`, `as-needed`],
