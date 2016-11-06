@@ -34,6 +34,7 @@ module.exports = {
     eqeqeq: [`error`, `smart`],
     "jsx-quotes": [`error`, `prefer-single`],
     camelcase: `error`,
+    "keyword-spacing": [`error`, {before: true, after: true}],
     "arrow-spacing": `error`,
     "object-curly-spacing": [`off`, `never`],
     "arrow-parens": [`error`, `as-needed`],
