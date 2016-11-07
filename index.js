@@ -37,6 +37,7 @@ module.exports = {
     "keyword-spacing": [`error`, {before: true, after: true}],
     "space-before-blocks": `error`,
     "space-unary-ops": [`error`, {words: true, nonwords: true}],
+    "semi-spacing": [`error`, {before: false, after: false}],
     "arrow-spacing": `error`,
     "object-curly-spacing": [`off`, `never`],
     "arrow-parens": [`error`, `as-needed`],
