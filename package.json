@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-devine",
-  "version": "1.4.0",
+  "version": "1.5.0",
   "description": "the one and only devine.be eslint config",
   "main": "index.js",
   "repository": {
