@@ -36,6 +36,7 @@ module.exports = {
     camelcase: `error`,
     "keyword-spacing": [`error`, {before: true, after: true}],
     "space-before-blocks": `error`,
+    "space-unary-ops": [`error`, {words: true, nonwords: true}],
     "arrow-spacing": `error`,
     "object-curly-spacing": [`off`, `never`],
     "arrow-parens": [`error`, `as-needed`],
