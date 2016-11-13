@@ -17,6 +17,7 @@
     "semi": ["error", "always"],
     "prefer-const": "error",
     "quote-props": ["error", "as-needed"],
+    "comma-dangle": ["error", "always-multiline"],
     "space-infix-ops": "error",
     "no-console": "off",
     "prefer-template": "error",
