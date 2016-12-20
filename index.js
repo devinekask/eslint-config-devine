@@ -1,7 +1,7 @@
 module.exports = {
 
   extends: [
-    `eslint:recommended`
+    `eslint:recommended`,
   ],
 
   parser: `babel-eslint`,
@@ -11,11 +11,11 @@ module.exports = {
     node: true,
     jest: true,
     mocha: true,
-    es6: true
+    es6: true,
   },
 
   plugins: [
-    `babel`
+    `babel`,
   ],
 
   rules: {
@@ -37,7 +37,7 @@ module.exports = {
     "keyword-spacing": [`error`, {before: true, after: true}],
     "space-in-parens": [`error`, `never`],
     "space-before-blocks": `error`,
-    "space-unary-ops": [`error`, {words: true, nonwords: true, overrides: {"!": false}}],
+    "space-unary-ops": [`error`, {words: true, nonwords: true, overrides: {"!": false, ".": false}}],
     "semi-spacing": [`error`, {before: false, after: false}],
     "arrow-spacing": `error`,
     "object-curly-spacing": [`off`, `never`],
@@ -46,8 +46,8 @@ module.exports = {
     "comma-spacing": [`error`, { before: false, after: true }],
     "comma-style": [`error`, `last`],
 
-    "babel/object-curly-spacing": [`error`, `never`]
+    "babel/object-curly-spacing": [`error`, `never`],
 
-  }
+  },
 
 };
