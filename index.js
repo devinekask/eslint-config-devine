@@ -30,6 +30,9 @@ module.exports = {
     "prefer-template": `error`,
     "no-array-constructor": `error`,
     "no-new-object": `error`,
+    "no-unused-vars": [`error`, {
+      ignoreRestSiblings: true,
+    }],
     "no-var": `error`,
     eqeqeq: [`error`, `smart`],
     "jsx-quotes": [`error`, `prefer-single`],
