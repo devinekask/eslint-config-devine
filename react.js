@@ -31,9 +31,6 @@ module.exports = {
     "react/jsx-pascal-case": `error`,
     "react/jsx-filename-extension": `error`,
     "react/jsx-curly-spacing": `error`,
-    "react/jsx-no-bind": [`error`, {
-      ignoreRefs: true,
-    }],
     "react/jsx-equals-spacing": `error`,
     "react/jsx-handler-names": `error`,
     "react/jsx-space-before-closing": [`error`, `always`],
