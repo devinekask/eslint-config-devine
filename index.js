@@ -24,6 +24,7 @@ module.exports = {
     quotes: [`error`, `backtick`],
     semi: [`error`, `always`],
     "prefer-const": `error`,
+    "prefer-destructuring": [`error`, {array: false, object: true}, {enforceForRenamedProperties: true}],
     "space-infix-ops": `error`,
     "quote-props": [`error`, `as-needed`],
     "no-console": `off`,
