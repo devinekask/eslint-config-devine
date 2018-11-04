@@ -1,19 +1,16 @@
 {
-
-  "extends": [
-    "eslint:recommended"
-  ],
+  "extends": ["eslint:recommended"],
 
   "parser": "babel-eslint",
 
   "env": {
-    "node": true
+    "node": true,
+    "es6": true
   },
 
   "rules": {
-
     "indent": ["error", 2],
-    "quotes": ["error", "backtick"],
+    "quotes": ["error", "single"],
     "semi": ["error", "always"],
     "prefer-const": "error",
     "quote-props": ["error", "as-needed"],
@@ -33,7 +30,5 @@
     "key-spacing": "error",
     "comma-spacing": ["error", { "before": false, "after": true }],
     "comma-style": ["error", "last"]
-
   }
-
 }
