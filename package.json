@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-devine",
-  "version": "2.0.1",
+  "version": "2.1.0",
   "description": "the one and only devine.be eslint config",
   "main": "index.js",
   "repository": {
@@ -12,15 +12,14 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "eslint": "5.8.0"
+    "eslint": "^5.15.3"
   },
   "dependencies": {
-    "babel-eslint": "^10.0.1",
-    "eslint-config-react-app": "3.0.5",
-    "eslint-plugin-babel": "^5.2.1",
-    "eslint-plugin-flowtype": "^3.1.4",
-    "eslint-plugin-import": "^2.14.0",
-    "eslint-plugin-jsx-a11y": "^6.1.2",
-    "eslint-plugin-react": "^7.11.1"
+    "babel-eslint": "9.x",
+    "eslint-config-react-app": "^3.0.8",
+    "eslint-plugin-flowtype": "2.x",
+    "eslint-plugin-import": "2.x",
+    "eslint-plugin-jsx-a11y": "6.x",
+    "eslint-plugin-react": "7.x"
   }
 }
