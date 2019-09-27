@@ -24,14 +24,6 @@ Then have your project's `.eslintrc` file extend the ruleset.
 }
 ```
 
-If you're using React in your project:
-
-```json
-{
-  "extends": "devine/react"
-}
-```
-
 ## License
 
 The MIT License (MIT). Please see [License File](LICENSE) for more information.

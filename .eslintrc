@@ -22,7 +22,6 @@
     "no-new-object": "error",
     "no-var": "error",
     "eqeqeq": ["error", "smart"],
-    "jsx-quotes": ["error", "prefer-single"],
     "camelcase": "error",
     "arrow-spacing": "error",
     "object-curly-spacing": ["off", "never"],
