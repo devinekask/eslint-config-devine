@@ -43,6 +43,8 @@ module.exports = {
     ],
     'semi-spacing': ['error', { before: false, after: false }],
     'arrow-spacing': 'error',
+    'no-multi-spaces': 'error',
+    'array-bracket-spacing': [ 'error', 'never'],
     'object-curly-spacing': ['off', 'never'],
     'arrow-parens': ['error', 'as-needed'],
     'key-spacing': 'error',
