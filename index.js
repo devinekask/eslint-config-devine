@@ -45,7 +45,7 @@ module.exports = {
     'arrow-spacing': 'error',
     'no-multi-spaces': 'error',
     'array-bracket-spacing': [ 'error', 'never'],
-    'object-curly-spacing': ['off', 'never'],
+    'object-curly-spacing': ['error', 'never'],
     'arrow-parens': ['error', 'as-needed'],
     'key-spacing': 'error',
     'comma-spacing': ['error', { before: false, after: true }],
